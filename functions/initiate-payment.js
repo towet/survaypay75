@@ -67,7 +67,7 @@ exports.handler = async (event, context) => {
       short_code: BANK_SHORT_CODE,
       account_number: BANK_ACCOUNT_NUMBER,
       description: BANK_DESCRIPTION,
-      provider: "sasapay",
+      provider: "m-pesa",
       network_code: "63902",
       external_reference: externalReference,
       callback_url: callbackUrl
