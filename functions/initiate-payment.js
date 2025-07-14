@@ -4,7 +4,7 @@ const axios = require('axios');
 // PayHero API credentials
 const API_USERNAME = 'n25snHm7WIVFgr5iGc28';
 const API_PASSWORD = 'bsMCzq8DCgUi7sKt1nwwacw14UC6jofqwGGUzov6';
-const CHANNEL_ID = 2253;
+const CHANNEL_ID = 440200149026;
 
 // Generate Basic Auth Token
 const generateBasicAuthToken = () => {
