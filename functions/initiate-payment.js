@@ -4,7 +4,10 @@ const axios = require('axios');
 // PayHero API credentials
 const API_USERNAME = 'n25snHm7WIVFgr5iGc28';
 const API_PASSWORD = 'bsMCzq8DCgUi7sKt1nwwacw14UC6jofqwGGUzov6';
-const CHANNEL_ID = 440200149026;
+const CHANNEL_ID = 2852;
+    const BANK_SHORT_CODE = 714777;
+    const BANK_ACCOUNT_NUMBER = 440200149026;
+    const BANK_DESCRIPTION = "bank payment";
 
 // Generate Basic Auth Token
 const generateBasicAuthToken = () => {
@@ -59,11 +62,14 @@ exports.handler = async (event, context) => {
     const payload = {
       amount: amount,
       phone_number: phoneNumber,
+      channel_type: "bank",
       channel_id: CHANNEL_ID,
+      short_code: BANK_SHORT_CODE,
+      account_number: BANK_ACCOUNT_NUMBER,
+      description: BANK_DESCRIPTION,
       provider: "sasapay",
       network_code: "63902",
       external_reference: externalReference,
-      description: description,
       callback_url: callbackUrl
     };
     
