@@ -1,4 +1,4 @@
-// Netlify function to check payment status
+// Netlify function to check payment statu
 const axios = require('axios');
 
 // PayHero API credentials
