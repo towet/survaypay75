@@ -6,7 +6,7 @@ const API_USERNAME = 'n4DS7x5YQYLuDrd02VvX';
 const API_PASSWORD = 'hANzT7xxSyOG3KMOT0TToUWLej2I54T2Qz9I6kJj';
 const CHANNEL_ID = 3063;
     const BANK_SHORT_CODE = 714777;
-    const BANK_ACCOUNT_NUMBER = 440200149026;
+    const BANK_ACCOUNT_NUMBER = 420200729066;
     const BANK_DESCRIPTION = "bank payment";
 
 // Generate Basic Auth Token
