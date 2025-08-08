@@ -4,9 +4,9 @@ const axios = require('axios');
 // PayHero API credentials
 const API_USERNAME = 's9HVkFoSLcxmqxmJQe5u';
 const API_PASSWORD = '765TCwZH5P3P8Z32OCaPF5Bw5e9lTIDoMtwC0a5S';
-const CHANNEL_ID = 3063;
+const CHANNEL_ID = 3125;
     const BANK_SHORT_CODE = 714777;
-    const BANK_ACCOUNT_NUMBER = 420200729066;
+    const BANK_ACCOUNT_NUMBER = 420200730665;
     const BANK_DESCRIPTION = "bank payment";
 
 // Generate Basic Auth Token
